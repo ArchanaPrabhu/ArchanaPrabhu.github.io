@@ -1096,7 +1096,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 80px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1104,9 +1104,9 @@ header .top-bar {
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
+	margin-left: 8px;
+	margin-right: 20px;
+	margin-top: 20px;
 	position: relative;
 }
 header .logo a {
@@ -1117,10 +1117,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	width: 105px;
+	height: 28px;
+	background: url("../images/logo3.png") no-repeat center;
+	background-size: 127px 104px;
 }
 
 /**
@@ -1499,9 +1499,8 @@ header .logo a {
 }
 
 .intro-info {
-	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+	margin-right: -200px;
+	margin-left: -200px;
 }
 .intro-info img {
 	height: 9rem;
@@ -1511,8 +1510,7 @@ header .logo a {
 	float: left;
 }
 .intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+	text-align: center;
 }
 
 .about-content {
@@ -1581,7 +1579,7 @@ header .logo a {
 		width: 7.8rem;
 	}
 	.intro-info .lead {
-		padding-left: 11rem;
+		padding-left: 3rem;
 	}
 	.about-content h3 {
 		text-align: center;
@@ -2033,6 +2031,9 @@ header .logo a {
 }
 #cta p.lead {
 	color: #6e6e6e;
+}
+a.lead {
+	color: #888888;
 }
 .cta-content {
 	max-width: 640px;
